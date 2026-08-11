@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell.exe -Command \"Get-Command python -ErrorAction SilentlyContinue | Select-Object Source; Get-Command python3 -ErrorAction SilentlyContinue | Select-Object Source; Get-Command py -ErrorAction SilentlyContinue | Select-Object Source; Get-Command uv -ErrorAction SilentlyContinue | Select-Object Source; Get-Command make -ErrorAction SilentlyContinue | Select-Object Source\" 2>&1)"
+    ]
+  }
+}
